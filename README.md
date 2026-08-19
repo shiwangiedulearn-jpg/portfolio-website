@@ -1,40 +1,50 @@
-# Shiwangi — Portfolio Website
+# Shiwangi — AI/ML Engineer Portfolio
 
-Production-ready portfolio built with React 19 + TypeScript + TanStack Start (Vite 7) + Tailwind CSS v4.
+My personal portfolio showcasing my work in **Artificial Intelligence, Machine Learning, Computer Vision, NLP, and Python development**.
 
-## Folder structure
+🌐 **Live Portfolio:** https://portfolio-website-ten-indol-20.vercel.app/
 
-```
-.
-├── public/                 # static assets (robots.txt, favicon)
-├── src/
-│   ├── components/         # reusable UI + animation components
-│   │   ├── Reveal.tsx      # scroll-reveal wrapper
-│   │   └── TypeLine.tsx    # typewriter + letter-reveal effects
-│   ├── hooks/              # custom React hooks
-│   ├── lib/                # utilities
-│   ├── routes/
-│   │   ├── __root.tsx      # global shell, fonts, meta
-│   │   └── index.tsx       # portfolio page (all sections)
-│   ├── router.tsx
-│   ├── server.ts
-│   └── styles.css          # design tokens, dark theme, animations
-├── package.json
-├── vite.config.ts
-└── tsconfig.json
-```
+## About Me
 
-## Run locally
+I am a B.Tech Computer Science Engineering student focused on building practical and deployable AI/ML solutions.
 
-```bash
-npm install
-npm run dev      # http://localhost:8080
-```
+- 🎓 B.Tech CSE | I.K.G.P.T.U. Kapurthala
+- 🤖 AI/ML & Python Developer
+- 🧠 Interested in Machine Learning, NLP, Computer Vision & AI Agents
+- 🚀 Open to AI/ML internships and entry-level opportunities
 
-## Build
+## Featured Projects
 
-```bash
-npm run build
-```
+### 🩺 MediSense AI
+AI-powered healthcare diagnosis assistant with:
+- Multiple ML-based disease prediction models
+- Medical report extraction using OCR
+- Symptom analysis and health insights
+- FastAPI backend and React frontend
 
+**Tech:** Python, React, FastAPI, Scikit-learn, Groq API, OCR
 
+### 🌱 Plant Disease Detection
+YOLOv8-based computer vision system for detecting plant diseases.
+
+**Tech:** Python, YOLOv8, OpenCV
+
+### 🗺️ Tourism Safety App
+Machine-learning based safer route prediction system using geospatial and environmental data.
+
+**Tech:** Python, Flask, Scikit-learn, DBSCAN
+
+## Tech Stack
+
+**Languages:** Python, JavaScript  
+**ML/AI:** Scikit-learn, YOLOv8, NLP, Computer Vision  
+**Frameworks:** React, FastAPI, Flask, Streamlit  
+**Libraries:** Pandas, NumPy, OpenCV, PyMuPDF, pdfplumber, pytesseract  
+**Tools:** Git, GitHub, REST APIs, Groq API
+
+## Connect With Me
+
+- 🌐 Portfolio: https://portfolio-website-ten-indol-20.vercel.app/
+- 💼 LinkedIn: https://www.linkedin.com/in/shiwangi-aiml/
+- 🐙 GitHub: https://github.com/shiwangiedulearn-jpg
+- 📧 Email: shiwangi.edulearn@gmail.com
