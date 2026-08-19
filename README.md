@@ -9,7 +9,7 @@ My personal portfolio showcasing my work in **Artificial Intelligence, Machine L
 I am a B.Tech Computer Science Engineering student focused on building practical and deployable AI/ML solutions.
 
 - 🎓 B.Tech CSE | I.K.G.P.T.U. Kapurthala
-- 🤖 AI/ML & Python Developer
+- 🤖 AI & ML Engineer
 - 🧠 Interested in Machine Learning, NLP, Computer Vision & AI Agents
 - 🚀 Open to AI/ML internships and entry-level opportunities
 
