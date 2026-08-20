@@ -2,7 +2,7 @@
 
 My personal portfolio showcasing my work in **Artificial Intelligence, Machine Learning, Computer Vision, NLP, and Python development**.
 
-🌐 **Live Portfolio:** https://portfolio-website-ten-indol-20.vercel.app/
+🌐 **Live Portfolio:** https://shiwangi-aiml.vercel.app/
 
 ## About Me
 
