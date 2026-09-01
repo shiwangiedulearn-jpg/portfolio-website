@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Machine learning, NLP and computer vision projects: MediSense AI, plant disease classifier and safer route prediction.",
+          "AI/ML portfolio featuring ResearchRAG, MediSense AI and a YOLOv8 plant disease detection system.",
       },
       { property: "og:type", content: "profile" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -58,18 +58,20 @@ const NAV = [
 
 const STATS = [
   ["8.82", "Current CGPA", "B.Tech CSE · 2023–2027"],
-  ["3+", "ML Projects", "Built & deployed end-to-end"],
+  ["3+", "AI/ML Projects", "Built & deployed end-to-end"],
   ["3", "Certifications", "IBM, NASSCOM & more"],
   ["2", "Hackathon Finals", "GNA 4.0 · Hack-N-Win"],
 ];
 
 const FOCUS = [
+  "Generative AI & RAG",
   "Applied Machine Learning",
   "Natural Language Processing",
   "Computer Vision (YOLOv8)",
   "OCR & Document Parsing",
   "Data Pipelines & EDA",
   "Model Deployment (Streamlit/Flask)",
+  "Generative AI & RAG",
 ];
 
 const SKILLS = [
@@ -109,9 +111,9 @@ const SKILLS = [
     title: "AI Tools & Workflow",
     items: [
       ["OpenCV & YOLOv8", "Proficient"],
-      ["PyMuPDF / pdfplumber", "Fluent"],
-      ["pytesseract OCR", "Fluent"],
-      ["Groq API · Git & GitHub", "Strong"],
+      ["Google Gemini & LLM APIs", "Proficient"],
+      ["Qdrant & Vector Search", "Proficient"],
+      ["RAG & Embeddings", "Proficient"],
     ],
   },
 ];
@@ -121,6 +123,32 @@ const LINKEDIN = "https://www.linkedin.com/in/shiwangi-aiml/";
 const EMAIL = "shiwangi.edulearn@gmail.com";
 
 const PROJECTS = [
+  {
+    title: "ResearchRAG",
+    subtitle: "Document-Based Retrieval-Augmented Generation System",
+    tagKey: "genai",
+    tag: "Generative AI",
+    points: [
+      "Built an end-to-end RAG application for asking questions across uploaded TXT, PDF and DOCX research documents.",
+      "Implemented document extraction, chunking, Gemini embeddings, semantic retrieval with Qdrant and LLM-powered answer generation.",
+      "Built a FastAPI backend and React frontend with document upload, duplicate detection, document management and question answering.",
+      "Deployed the frontend on Vercel and backend on Render with production environment configuration and CORS support.",
+    ],
+    tech: [
+      "Python",
+      "FastAPI",
+      "React",
+      "Google Gemini",
+      "Qdrant",
+      "RAG",
+      "Embeddings",
+      "Vercel",
+      "Render",
+    ],
+    repo: "https://github.com/shiwangiedulearn-jpg/ResearchRAG",
+    live: "https://researchrag-ai.vercel.app/",
+  },
+
   {
     title: "MediSense AI",
     subtitle: "AI-Powered Healthcare Diagnosis Assistant",
@@ -141,9 +169,10 @@ const PROJECTS = [
       "pdfplumber",
       "pytesseract",
     ],
-    repo: GITHUB,
+    repo: "https://github.com/shiwangiedulearn-jpg/MediSense-AI",
     live: "https://medi-sense-ai-eight-nu.vercel.app/",
   },
+
   {
     title: "AgriTech",
     subtitle: "Plant Disease Detection",
@@ -154,28 +183,15 @@ const PROJECTS = [
       "End-to-end pipeline covering preprocessing, training and evaluation at ~85% accuracy.",
     ],
     tech: ["Python", "YOLOv8", "OpenCV"],
-    repo: GITHUB,
+    repo: "https://github.com/shiwangiedulearn-jpg/smart-agriculture-ai",
     live: "https://plantsd.onrender.com/",
-  },
-  {
-    title: "Tourism App",
-    subtitle: "Safer Route Prediction System",
-    tagKey: "ml",
-    tag: "Machine Learning",
-    points: [
-      "Safety prediction system built on Random Forest and DBSCAN clustering.",
-      "Integrated 10+ geospatial and environmental data points for risk analysis.",
-      "REST API serving real-time predictions for decision support.",
-    ],
-    tech: ["Python", "Flask", "Scikit-learn"],
-    repo: GITHUB,
-    live: "",
   },
 ];
 
 const FILTERS = [
   { key: "all", label: "All Projects (3)" },
-  { key: "ml", label: "Machine Learning (2)" },
+  { key: "genai", label: "Generative AI (1)" },
+  { key: "ml", label: "Machine Learning (1)" },
   { key: "cv", label: "Computer Vision (1)" },
 ];
 
